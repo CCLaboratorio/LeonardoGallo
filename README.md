@@ -9,7 +9,7 @@ Además, se incluye información util de configuración del entorno, manejo bás
 
 Para una fácil navegación revisa cada apartado de acuerdo a la materia que estés cursando:
 
-- [Introducción a las Ciencias de la Computación](#introdución-a-las-ciencias-de-la-computación)
+- [Introducción a las Ciencias de la Computación](#introducción-a-las-ciencias-de-la-computación)
 - [Estructuras de Datos](#estructuras-de-datos)
 
 Índide de contenido variado que sirve de auxiliar para ambos cursos, ubicado en la carpeta _miscelanea_:
