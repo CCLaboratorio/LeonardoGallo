@@ -4,7 +4,7 @@
 
 El presente almacén contiene las plantillas de las prácticas del laboratorio de los cursos de *Introcucción a las Ciencias de la Computación* y *Estructuras de Datos*.
 
-Además, se incluye información util de configuración del entorno, manejo básico de la Konsola en ambientes linux, para administrar directorios, usar git y el Kit de Desarrollo de Java (JDK).
+Además, se incluye información util de configuración del entorno incluyendo el manejo de la línea de comandos en ambientes _Linux_ para administrar el equipo, usar el Kit de Desarrollo de Java (_JDK_) y _git_ a través de la konsola para el desarrollo de proyectos usando el lenguaje _Java_.
  
 
 Para una fácil navegación revisa cada apartado de acuerdo a la materia que estés cursando:
