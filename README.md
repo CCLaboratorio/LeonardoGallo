@@ -21,6 +21,8 @@ Para una fácil navegación revisa cada apartado de acuerdo a la materia que est
  <a href="#miscelanea" ></a>
 ## Contenido de la carpeta miscelanea
 
+_En construcción ..._
+
  <a href="#icc"></a>
 ## Introducción a las Ciencias de la Computación
 
