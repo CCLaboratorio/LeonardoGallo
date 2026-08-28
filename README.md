@@ -18,15 +18,16 @@ Para una fácil navegación revisa cada apartado de acuerdo a la materia que est
 - [Comandos JDK]
 - [Configuración de git]
 
-## Contenido de la carpeta miscelanea <a href="#miscelanea" /a>
+ <a href="#miscelanea" ></a>
+## Contenido de la carpeta miscelanea
 
-
-
-### Introducción a las Ciencias de la Computación <a href="#icc" /a>
+ <a href="#icc"></a>
+### Introducción a las Ciencias de la Computación
 
 _En construcción ..._
 
-### Estructuras de Datos <a href="#edd" /a>
+ <a href="#edd"></a>
+### Estructuras de Datos
 
 Árbol de directorios del curso, un estatus parcial para la práctica 1.
 
