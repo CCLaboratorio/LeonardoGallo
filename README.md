@@ -2,11 +2,11 @@
 
 Plantillas de laboratorio de *Introcucción a las Ciencias de la Computación* y *Estructuras de Datos*
 
-##Introducción a las Ciencias de la Computación##
+## Introducción a las Ciencias de la Computación ##
 
+_En construcción ..._
 
-
-##Estructuras de Datos##
+## Estructuras de Datos ##
 
 Árbol de directorios del curso, un estatus parcial para la práctica 1.
 
