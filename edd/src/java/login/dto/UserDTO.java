@@ -1,4 +1,4 @@
-package dto;
+package login.dto;
 
 /**
  * Persistencia de la informacion de un usuario.
@@ -7,8 +7,10 @@ package dto;
  */
 public class UserDTO {
 
+    private String id;
     private String name;
     private String mail;
+    private String key;
 
     /**
      *
