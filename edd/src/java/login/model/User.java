@@ -6,6 +6,7 @@
  */
 class User {
 
+    String id
     String name;
     String mail;
     String rol;

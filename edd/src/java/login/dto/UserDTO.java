@@ -1,39 +1,36 @@
 package login.dto;
 
 /**
- * Persistencia de la información de un usuario.
+ * Persistence of user information.
  * @author lgallo
  * @since 27/08/2026
+ * @version 1
  */
 public class UserDTO {
 
     private String id;
     private String name;
     private String mail;
-    private String key;
+    private String password;
     private String rol;
 
     /**
-     * Coméntame ...
+     * Complete the comment...
      */
     public UserDTO() {
-	id = "0";
-	name = "Felipe Sánchez";
-	mail = "felipe.sanchez@gmail.com";
-	key = "123";
-	rol = "standar";
+	// Complete this...
     }
 
     /**
      *
-     * Coméntame ...
+     * Complete the comment...
      */
     public String getName() {
 	return name;
     }
 
     /**
-     * Coméntame ...
+     * Complete the comment...
      * @param name ...
      */
     public void setName(String name) {
@@ -46,7 +43,7 @@ public class UserDTO {
     }
 
     /**
-     * Prueba local del DTO
+     * Local test of DTO
      */
     public static void main(String[] args) {
 	UserDTO u = new UserDTO();
