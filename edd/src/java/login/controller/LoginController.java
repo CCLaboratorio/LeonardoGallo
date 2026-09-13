@@ -7,17 +7,40 @@ class LoginController {
 
     private final LoginView view;
 
+    /**
+     *
+     *
+     */
     public LoginController(LoginView view) {
 	// Implementation...
     }
 
+    /**
+     *
+     *
+     */
     public void initSesion() {
 
-	String username;
-	String password;
+	String mail;
+	String password = view.requestPassword();
 
+	List<UserDTO> usersDB = getUSersDB();
+
+	for (UserDTO user : usersDB) {
+	    if (user.getMail().equals(mail)
+		&& user.getPassword().equals(password)) {
+		// Show Welcome
+		return;
+	    }
+	}
+
+	view.showError();
     }
 
+    /**
+     *
+     *
+     */
     public List<UserDTO> getUsersDB() {
 	List<UsertDTO> usersDB = new ArrayList<>();
 
@@ -30,7 +53,10 @@ class LoginController {
 					  element[3],
 					  element[4]
 					  );
+	    usersDB.add(userDTO);
 	}
+
+	return usersDB;
     }
     
 

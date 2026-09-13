@@ -25,7 +25,11 @@ public class UserDTO {
      * Complete the comment...
      */
     public UserDTO(Integer id, String name, String mail, String password, String rol) {
-	// Complete this...
+	this.id = id;
+	this.name = name;
+	this.mail = name;
+	this.password = password;
+	this.rol = rol;
     }
 
     /**
