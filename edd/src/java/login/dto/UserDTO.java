@@ -8,7 +8,7 @@ package login.dto;
  */
 public class UserDTO {
 
-    private String id;
+    private Integer id;
     private String name;
     private String mail;
     private String password;
@@ -18,6 +18,13 @@ public class UserDTO {
      * Complete the comment...
      */
     public UserDTO() {
+	// Complete this...
+    }
+
+    /**
+     * Complete the comment...
+     */
+    public UserDTO(Integer id, String name, String mail, String password, String rol) {
 	// Complete this...
     }
 
