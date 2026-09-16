@@ -37,4 +37,11 @@ public class DBReader {
 
         return data;
     }
+
+    public static void main(String[] args) {
+	List<String[]> data = getData("resources/users.txt");
+	for(String[] e : data) {
+	    System.out.println(e[1]);
+	}
+    }
 }
