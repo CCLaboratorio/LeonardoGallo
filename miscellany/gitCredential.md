@@ -16,7 +16,7 @@ Para configurar tu git de tal manera que no te vuelva a pedir contraseña cada q
 
 	```$ git config --global credential.helper 'cache --timeout=3600'```
 
-	Una vez transcurrida una hora (3600 segundos), el siguiente acceso que se realice al repositorio volverá a solicitar usuario y contraseña.
+	Una vez transcurrida una hora (3600 segundos), el siguiente acceso que se realice al almacén volverá a solicitar usuario y contraseña.
 
-	Esta opción es útli cuando no estás trabajando en tu equipo personal y sólo te tomará un tiempo determinado realzar modificaciones al almacén.
+	Esta opción es útli cuando no estás trabajando en tu equipo personal y sólo te tomará un tiempo determinado realizar modificaciones al almacén.
 
