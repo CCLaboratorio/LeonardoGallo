@@ -6,7 +6,7 @@ Para configurar tu git de tal manera que no te vuelva a pedir contraseña cada q
 
 	```$ git config --global credential.helper store```
 
-	Con esto, en el siguiente acceso que se realices al almacén remoto, el usuario y contraseña introducidos quedan almacenados en un fichero ubicado en:
+	Con esto, en el siguiente acceso que realices al almacén remoto, el usuario y contraseña introducidos quedan almacenados en un fichero ubicado en:
 	
 		~/.git-credentials
 
