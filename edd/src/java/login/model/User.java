@@ -1,4 +1,4 @@
-//Incluye el package
+package login.model;
 
 /**
  * Coméntame ...
@@ -6,7 +6,7 @@
  */
 class User {
 
-    String id
+    String id;
     String name;
     String mail;
     String rol;

@@ -1,5 +1,10 @@
-// Incluye el package
+package login.controller;
 
+import login.view.LoginView;
+import java.util.List;
+import login.dto.UserDTO;
+import util.DBReader;
+    
 /**
  * Coméntame ...
  */
@@ -13,6 +18,7 @@ class LoginController {
      */
     public LoginController(LoginView view) {
 	// Implementation...
+	this.view = view;
     }
 
     /**
@@ -22,14 +28,18 @@ class LoginController {
     public void initSesion() {
 
 	String mail;
-	String password = view.requestPassword();
+	String password;
 
-	List<UserDTO> usersDB = getUSersDB();
+	view.showWelcome();
+	mail = view.requestMail();
+	password = view.requestPassword();
+
+	List<UserDTO> usersDB = getUsersDB();
 
 	for (UserDTO user : usersDB) {
 	    if (user.getMail().equals(mail)
 		&& user.getPassword().equals(password)) {
-		// Show Welcome
+		
 		return;
 	    }
 	}

@@ -38,6 +38,9 @@ public class DBReader {
         return data;
     }
 
+    /**
+     * Prueba local de DBReader
+     */
     public static void main(String[] args) {
 	List<String[]> data = getData("resources/users.txt");
 	for(String[] e : data) {

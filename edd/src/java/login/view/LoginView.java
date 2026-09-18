@@ -1,4 +1,6 @@
-//package login.view;
+package login.view;
+
+import java.util.Scanner;
 
 /**
  *
@@ -12,15 +14,15 @@ public class LoginView {
      * Complete the comment...
      */
     public LoginView() {
-	// Complete this...
+	sc = new Scanner(System.in);
     }
 
     /**
      * Complete the comment...
      */
     public String requestMail() {
-	System.out.println("");
-	return "";
+	System.out.println("Ingresa Correo: ");
+	return sc.nextLine();
     }
 
     /**
@@ -44,7 +46,7 @@ public class LoginView {
      */
     public void showError() {
 	System.out.println();
-	System.out.println("");
+	System.out.println("Credenciales erroneas...");
     }
     
 }
