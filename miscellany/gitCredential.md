@@ -1,6 +1,12 @@
 <h3>Credenciales de git</h3>
 
-Para configurar tu git de tal manera que no te vuelva a pedir contraseña cada que realices una instrucción que requiera autenticación pudes ocupar lo siguiente:
+Después de generar tu Token Clásico a través de la opción:
+
+	Settings -> Developer Settings -> Personal access tokens -> Tokens (classic) -> Generate new token (classic)
+
+Copia y guarda en un lugar seguro la cadena que te proporcionó Github como Token de acceso personal. Intenta clonar tu almacén, coloca tu nombre de usuario y pega correspondiente al token, con esto debería iniciar el proceso de clonación y te lanzará un Warning ya que la carpeta que acabas de clonar está vacía.
+
+Para configurar tu git de tal manera que no te vuelva a pedir contraseña cada que realices una instrucción que requiera autenticación ejecuta lo siguiente en la consola:
 
 - Configuración atemporal:
 
@@ -20,3 +26,9 @@ Para configurar tu git de tal manera que no te vuelva a pedir contraseña cada q
 
 	Esta opción es útli cuando no estás trabajando en tu equipo personal y sólo te tomará un tiempo determinado realizar modificaciones al almacén.
 
+Ahora para que uses nuevamente tu token y quede almacenado gracias a la instrucción anterior, ingresa a la carpeta creada después de clonar y dentro crea un README.md y súbelo a tu almacén remoto, para ello ejecuta la siguiente serie de instrucciones.
+
+``` $ emacs README.md
+    $ git add README.md
+    $ git commit -m "Se crea el README.md"
+    $ git push ```
