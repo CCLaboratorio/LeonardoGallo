@@ -16,7 +16,7 @@ Para una fácil navegación revisa cada apartado de acuerdo a la materia que est
 
 - [Comandos básicos para una konsola en Linux]
 - [Comandos JDK]
-- [Configuración de credenciales de git](miscelanea/gitCredential.md)
+- [Configuración de credenciales de git](miscellany/gitCredential.md)
 
  <a href="#miscelanea" ></a>
 ## Contenido de la carpeta miscelanea
