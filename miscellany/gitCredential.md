@@ -30,7 +30,7 @@ Para configurar tu git de tal manera que no te vuelva a pedir contraseña cada q
 
 	Esta opción es útli cuando no estás trabajando en tu equipo personal y sólo te tomará un tiempo determinado realizar modificaciones al almacén.
 
-Ahora, para que uses nuevamente tu token y quede almacenado gracias a la instrucción anterior, ingresa a la carpeta creada después de clonar, por ejemplo ```$ cd LeonardoGallo``` y dentro crea un README.md, posteriormente súbelo a tu almacén remoto, para ello ejecuta la siguiente serie de instrucciones.
+Ahora, para que uses nuevamente tu token y quede almacenado gracias a la instrucción anterior, ingresa a la carpeta creada después de clonar, por ejemplo ```$ cd LeonardoGallo``` y dentro crea un _README.md_ haciendo uso del tu editor de preferencia, posteriormente súbelo a tu almacén remoto, para ello ejecuta la siguiente serie de instrucciones.
 
 ``` $ emacs README.md
     $ git add README.md
