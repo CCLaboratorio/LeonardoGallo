@@ -1,18 +1,22 @@
 <h3>Credenciales de git</h3>
 
-- Configuración atemporal 
+Para configurar tu git de tal manera que no te vuelva a pedir contraseña cada que realizar una instrucción que requiera autenticación pudes ocupar lo siguiente:
+
+- Configuración atemporal:
 
 	```$ git config --global credential.helper store```
 
-Con esto, en el siguiente acceso que se realice al repositorio remoto,
-el usuario y contraseña introducidos quedan almacenados en un fichero ubicado en:
+	Con esto, en el siguiente acceso que se realices al almacén remoto,
+	el usuario y contraseña introducidos quedan almacenados en un fichero ubicado en:
 	
-	~/.git-credentials
-	
+		~/.git-credentials
+
+	Esta opción se recomienda usar únicamente en tu equipo personal.	
+
 - Configuración temporal
 
 	```$ git config --global credential.helper 'cache --timeout=3600'```
 
-Una vez transcurrida una hora (3600 segundos), el siguiente acceso que se realice al
-repositorio volverá a solicitar usuario y contraseña.
+	Una vez transcurrida una hora (3600 segundos), el siguiente acceso que se realice al
+	repositorio volverá a solicitar usuario y contraseña.
 
