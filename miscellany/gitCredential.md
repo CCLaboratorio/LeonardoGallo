@@ -5,7 +5,7 @@ Después de generar tu Token Clásico a través de la opción:
 	Settings -> Developer Settings -> Personal access tokens -> Tokens (classic) -> Generate new token (classic)
 
 1. Copia y guarda en un lugar seguro la cadena que te proporcionó Github como Token de acceso personal. 
-2. Clonar tu almacén $ git clone _ruta proporcionada con terminación .git_
+2. Clonar tu almacén ```$ git clone _rutaProporcionadaConTerminación.git_```
 3. Coloca tu nombre de usuario y pega el token proporcionado con Ctrl + Shift + v
 
 Con esto debería iniciar el proceso de clonación y te lanzará un Warning ya que la carpeta que acabas de clonar está vacía.
