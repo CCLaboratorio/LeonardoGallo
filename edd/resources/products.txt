@@ -1,0 +1,2 @@
+001|carlos v|10|100
+204|leche alpura 1l|25|55

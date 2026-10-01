@@ -130,7 +130,7 @@ public class SequenceOfIntegers {
         // La subsequence de suma maxima es: {11, -4, 13} = 20
         //int a[] = {-1,3,-6};
         int maxSum;
-        SequenceDeEnteros sequence = new SequenceDeEnteros();
+        SequenceOfIntegers sequence = new SequenceOfIntegers();
         
         maxSum = sequence.getMaxSum1(a);        
         System.out.println( "La suma máxima para getMaxSum1 es: " + maxSum );
